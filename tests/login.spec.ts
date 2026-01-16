@@ -17,7 +17,7 @@ test.describe('Swag Labs Login', () => {
     await expect(page).toHaveURL(/.*inventory.html/);
 
     // Verify the products page is displayed
-    await expect(page.locator('.title')).toHaveText('Products');
+    await expect(page.locator('.title')).toHaveText('Productsyyy');
   });
 
   test('should display error for locked out user', async ({ page }) => {
